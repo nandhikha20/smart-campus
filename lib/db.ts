@@ -1,14 +1,24 @@
 
 import fs from 'fs';
 import path from 'path';
+import os from 'os';
 
-const DB_PATH = path.join(process.cwd(), 'data');
+// Use /tmp in production (Vercel) because the root file system is read-only.
+// Use local data folder in development.
+const DB_PATH = process.env.NODE_ENV === 'production'
+    ? path.join(os.tmpdir(), 'smart_campus_data')
+    : path.join(process.cwd(), 'data');
+
 const USERS_FILE = path.join(DB_PATH, 'users.json');
 const CHATS_FILE = path.join(DB_PATH, 'chats.json');
 
 // Ensure DB directory exists
-if (!fs.existsSync(DB_PATH)) {
-    fs.mkdirSync(DB_PATH);
+try {
+    if (!fs.existsSync(DB_PATH)) {
+        fs.mkdirSync(DB_PATH, { recursive: true });
+    }
+} catch (error) {
+    console.error("Failed to create DB directory:", error);
 }
 
 // Helper to read/write JSON
