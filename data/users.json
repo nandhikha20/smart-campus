@@ -1,0 +1,10 @@
+[
+  {
+    "id": "c3fa3617-17e3-40a8-b32c-e0336ba0bdd5",
+    "name": "user",
+    "email": "user@gmail.com",
+    "password": "12345678",
+    "role": "student",
+    "createdAt": "2026-02-14T04:14:34.236Z"
+  }
+]

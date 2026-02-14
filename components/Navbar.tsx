@@ -1,7 +1,8 @@
 "use client";
 
-import React from "react";
-import { Search, Bell, Menu } from "lucide-react";
+import Link from "next/link";
+import { usePathname } from "next/navigation";
+import { Search, Bell, Menu, MessageSquare, Map, BookOpen, Calendar, User } from "lucide-react";
 import { clsx, type ClassValue } from "clsx";
 import { twMerge } from "tailwind-merge";
 
@@ -10,6 +11,7 @@ function cn(...inputs: ClassValue[]) {
 }
 
 export function Navbar() {
+    const pathname = usePathname();
     return (
         <nav className="bg-white/80 border-b border-slate-200 px-6 py-4 flex items-center justify-between sticky top-0 z-50 backdrop-blur-xl transition-all shadow-sm">
             <div className="flex items-center gap-4 md:hidden">
@@ -46,6 +48,32 @@ export function Navbar() {
                         N
                     </div>
                 </div>
+            </div>
+
+            {/* Mobile Bottom Nav */}
+            <div className="md:hidden fixed bottom-0 left-0 right-0 bg-white border-t border-slate-200 px-6 h-20 flex items-center justify-around z-50 pb-4 shadow-[0_-4px_6px_-1px_rgba(0,0,0,0.05)]">
+                {[
+                    { id: "/", label: "Assistant", icon: MessageSquare },
+                    { id: "/location", label: "Map", icon: Map },
+                    { id: "/study", label: "Spaces", icon: BookOpen },
+                    { id: "/schedule", label: "Schedule", icon: Calendar },
+                    { id: "/profile", label: "Profile", icon: User },
+                ].map((item) => {
+                    const isActive = pathname === item.id;
+                    return (
+                        <Link
+                            key={item.id}
+                            href={item.id}
+                            className={cn(
+                                "flex flex-col items-center gap-1 transition-all duration-200 p-2 rounded-lg",
+                                isActive ? "text-blue-600 -translate-y-1" : "text-slate-400 hover:text-slate-600"
+                            )}
+                        >
+                            <item.icon size={22} className={cn(isActive && "fill-current/20")} />
+                            <span className="text-[10px] font-bold tracking-wide">{item.label}</span>
+                        </Link>
+                    );
+                })}
             </div>
         </nav>
     );

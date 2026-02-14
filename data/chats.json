@@ -1,0 +1,46 @@
+{
+  "c3fa3617-17e3-40a8-b32c-e0336ba0bdd5": [
+    {
+      "id": "1",
+      "role": "bot",
+      "content": "Hello! I'm your Smart Campus Assistant. How can I help you today?",
+      "timestamp": "2026-02-14T04:14:34.378Z"
+    },
+    {
+      "id": "1771042482436",
+      "role": "user",
+      "content": "hi",
+      "timestamp": "2026-02-14T04:14:42.436Z"
+    },
+    {
+      "id": "1771042487035",
+      "role": "bot",
+      "content": "**Yo, superstar! 🎉** Welcome to the campus life adventure! 🌟 How can I help you brighten your day today? Need insider tips on classes, events, or just vibes to keep you going? Let me know! 💫\n\n(Or if you’re lost in thought… *whispers* 😏 **Hit me with your question!** 🚀)",
+      "timestamp": "2026-02-14T04:14:47.034Z"
+    },
+    {
+      "id": "1771042599249",
+      "role": "user",
+      "content": "hi",
+      "timestamp": "2026-02-14T04:16:39.249Z"
+    },
+    {
+      "id": "1771042602324",
+      "role": "bot",
+      "content": "**Hi, gorgeous! 🎉✨** How’s your day going so far? Need some help finding your way around campus, exploring events, or just vibing with me? Ask away, bestie—I’m here to make your college life *easy-peasy*! 💖📚\n\n(Or if you’re just here to chat… *I’m all about that positive energy!* 🥳🌈)",
+      "timestamp": "2026-02-14T04:16:42.323Z"
+    },
+    {
+      "id": "1771042968655",
+      "role": "user",
+      "content": "what is my schedule?",
+      "timestamp": "2026-02-14T04:22:48.655Z"
+    },
+    {
+      "id": "1771042972908",
+      "role": "bot",
+      "content": "Ahhh, bestie! 🎉 How exciting to check your schedule! *dances with a backpack emoji* 💃🎒\n\nSince I don’t have access to your *personal* schedule (😅 sorry, no magic vibes here!), here’s how you can find it:\n\n1. **Look in your student portal** (like Banner Self-Service, Campus Connect, or whatever your school uses!) 📱✨\n2. **Check your email or app**—some schools send it via their student app or calendar notifications!\n3. **Ask your advisor or department**—they might have a fun surprise or a *very important* reminder for you! 😆📚\n\nIf you share the name of your school or portal, I can *totally* help guide you there! 💪✨ Or if you’re feeling stuck, tell me what subject or activity you’re looking for, and I’ll point you in the right direction! 🌟\n\nFor now: what’s on your *mind*? Any big tests, fun clubs, or campus shenanigans happening today? 😄📅",
+      "timestamp": "2026-02-14T04:22:52.907Z"
+    }
+  ]
+}

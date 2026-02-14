@@ -1,0 +1,74 @@
+[
+  {
+    "category": "study_spots",
+    "text": "The **Sykkyish Library (Level 3)** is the ultimate quiet zone. Open 24/7 during exam weeks! It has 50 individual pods with power outlets."
+  },
+  {
+    "category": "study_spots",
+    "text": "Need a vibe? **The Student Hub Lounge** has bean bags, lo-fi music, and is great for group projects. Open 8 AM - 10 PM."
+  },
+  {
+    "category": "study_spots",
+    "text": "**Block C Roof Garden**: Best for reading with a view. Wi-Fi is a bit spotty, but the sunset is worth it."
+  },
+  {
+    "category": "study_spots",
+    "text": "**MakerSpace (Engineering Block)**: Open for all students. text-to-image 3D printers and large tables for collaboration."
+  },
+  {
+    "category": "dining",
+    "text": "**The Main Cafeteria (Block A)** serves breakfast (7-10 AM), lunch (12-3 PM), and dinner (6-9 PM). Today's special: Spicy Chicken Wrap & Vegan Buddha Bowl."
+  },
+  {
+    "category": "dining",
+    "text": "**Bytes & Bites Cafe (Library)**: Best coffee on campus. Open 8 AM - 8 PM. They have a 50% off pastry deal after 6 PM!"
+  },
+  {
+    "category": "dining",
+    "text": "**Night Owl Food Truck**: Parks near the hostels from 9 PM to 2 AM. Famous for their cheese fries and midnight tacos."
+  },
+  {
+    "category": "events",
+    "text": "**TechFest 2026** is happening this weekend (March 15-17) at the Auditorium! Hackathons, robotics, and free pizza."
+  },
+  {
+    "category": "events",
+    "text": "**Movie Night**: Every Friday at 7 PM on the Main Lawn. Bring a blanket! This week: 'Interstellar'."
+  },
+  {
+    "category": "events",
+    "text": "**Career Fair**: Next Tuesday, 10 AM - 4 PM in the Sports Complex. Bring your resume!"
+  },
+  {
+    "category": "locations",
+    "text": "**Block A**: Admin, Finance, and Computer Science Labs. Entrance faces the fountain."
+  },
+  {
+    "category": "locations",
+    "text": "**Block B**: Electronics, Mechanical, and the Dean's Office. Connected to Block A by the skybridge."
+  },
+  {
+    "category": "locations",
+    "text": "**Sports Complex**: Gym, swimming pool, and basketball courts. Gym hours: 6 AM - 10 PM. Student ID required."
+  },
+  {
+    "category": "locations",
+    "text": "**Health Center**: Located behind the Girls' Hostel. Open 9 AM - 5 PM. Emergency contacts available 24/7 on the app."
+  },
+  {
+    "category": "transport",
+    "text": "**Campus Shuttle**: Runs every 15 mins loop (Main Gate -> Hostels -> Academic Blocks -> Sports Complex)."
+  },
+  {
+    "category": "transport",
+    "text": "**Bike Share**: Grab a yellow bike from any rack. First 30 mins are free for students!"
+  },
+  {
+    "category": "services",
+    "text": "**IT Helpdesk**: Ground floor, Block A. They can fix Wi-Fi issues and reset passwords. Open 9-5."
+  },
+  {
+    "category": "services",
+    "text": "**Lost & Found**: At the Security Office near the Main Gate."
+  }
+]

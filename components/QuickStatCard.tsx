@@ -29,22 +29,22 @@ export function QuickStatCard({ icon, label, value, sub, color }: QuickStatCardP
         <motion.div
             whileHover={{ y: -4, scale: 1.02 }}
             transition={{ type: "spring", stiffness: 300, damping: 20 }}
-            className="bg-white border border-slate-200/60 p-5 rounded-2xl shadow-sm hover:shadow-xl hover:shadow-slate-200/50 transition-all duration-300 group cursor-pointer relative overflow-hidden"
+            className="bg-white border border-slate-200/60 p-3 rounded-xl shadow-sm hover:shadow-xl hover:shadow-slate-200/50 transition-all duration-300 group cursor-pointer relative overflow-hidden"
         >
-            <div className="absolute top-0 right-0 w-24 h-24 bg-gradient-to-bl from-slate-50 to-transparent rounded-bl-full -mr-12 -mt-12 transition-all opacity-50 group-hover:opacity-100" />
+            <div className="absolute top-0 right-0 w-16 h-16 bg-gradient-to-bl from-slate-50 to-transparent rounded-bl-full -mr-8 -mt-8 transition-all opacity-50 group-hover:opacity-100" />
 
-            <div className="flex items-start gap-4 relaltive z-10">
+            <div className="flex items-center gap-3 relaltive z-10">
                 <div className={cn(
-                    "p-3.5 rounded-xl transition-all duration-300 ring-1 shadow-sm flex items-center justify-center",
+                    "p-2.5 rounded-lg transition-all duration-300 ring-1 shadow-sm flex items-center justify-center",
                     colors[color]
                 )}>
-                    {React.cloneElement(icon as React.ReactElement, { size: 22, strokeWidth: 2.5 })}
+                    {React.cloneElement(icon as React.ReactElement, { size: 18, strokeWidth: 2.5 })}
                 </div>
 
                 <div className="flex-1 min-w-0">
-                    <p className="text-[11px] uppercase tracking-wider font-bold text-slate-400 mb-0.5 group-hover:text-slate-500 transition-colors">{label}</p>
-                    <h3 className="text-xl font-bold text-slate-900 leading-tight mb-1 group-hover:text-blue-900 transition-colors">{value}</h3>
-                    <p className="text-xs font-medium text-slate-500 truncate group-hover:text-slate-600 transition-colors">{sub}</p>
+                    <p className="text-[10px] uppercase tracking-wider font-bold text-slate-400 mb-0.5 group-hover:text-slate-500 transition-colors">{label}</p>
+                    <h3 className="text-lg font-bold text-slate-900 leading-tight mb-0.5 group-hover:text-blue-900 transition-colors">{value}</h3>
+                    <p className="text-[10px] font-medium text-slate-500 truncate group-hover:text-slate-600 transition-colors">{sub}</p>
                 </div>
             </div>
         </motion.div>
