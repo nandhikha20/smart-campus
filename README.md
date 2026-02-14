@@ -1,36 +1,81 @@
-This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://nextjs.org/docs/app/api-reference/cli/create-next-app).
+# 🎓 Smart Campus Assistant
 
-## Getting Started
+![Smart Campus Header](https://img.shields.io/badge/Status-Live-success?style=for-the-badge)
+![Next.js](https://img.shields.io/badge/Next.js-14+-black?style=for-the-badge&logo=next.js)
+![TypeScript](https://img.shields.io/badge/TypeScript-007ACC?style=for-the-badge&logo=typescript&logoColor=white)
+![Tailwind CSS](https://img.shields.io/badge/Tailwind_CSS-38B2AC?style=for-the-badge&logo=tailwind-css&logoColor=white)
 
-First, run the development server:
+An AI-powered web application designed to be the ultimate companion for university students. From finding study spots to navigating campus and managing class schedules, Smart Campus Assistant simplifies student life with a modern, intuitive interface.
 
-```bash
-npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
-```
+## 🚀 Live Demo
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+Check out the live application deployed on Vercel:
 
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
+### [👉 https://smart-campus-theta.vercel.app/](https://smart-campus-theta.vercel.app/)
 
-This project uses [`next/font`](https://nextjs.org/docs/app/building-your-application/optimizing/fonts) to automatically optimize and load [Geist](https://vercel.com/font), a new font family for Vercel.
+---
 
-## Learn More
+## ✨ Key Features
 
-To learn more about Next.js, take a look at the following resources:
+- **🤖 AI Chat Assistant**: A context-aware chatbot powered by RAG (Retrieval-Augmented Generation) to answer campus-related queries instantly.
+- **📍 Interactive Campus Map**: Locate buildings, classrooms, and facilities with ease.
+- **📚 Study Space Finder**: Real-time visualization of library seat availability and quiet zones.
+- **📅 Smart Schedule**: Integrated class timetable management to keep you on track.
+- **🔐 Secure Authentication**: Robust user authentication system with secure session management.
+- **📱 Responsive Design**: Fully optimized for desktop, tablet, and mobile devices.
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+## 🛠️ Tech Stack
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js) - your feedback and contributions are welcome!
+- **Frontend**: [Next.js](https://nextjs.org/) (App Router), [React](https://react.dev/), [TypeScript](https://www.typescriptlang.org/)
+- **Styling**: [Tailwind CSS](https://tailwindcss.com/), [Framer Motion](https://www.framer.com/motion/) (Animations), [Lucide React](https://lucide.dev/) (Icons)
+- **Backend**: Next.js API Routes (Serverless)
+- **Authentication**: JWT & Cookie-based secure auth
+- **Deployment**: [Vercel](https://vercel.com/)
 
-## Deploy on Vercel
+## 📦 Getting Started
 
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
+Follow these steps to set up the project locally:
 
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/building-your-application/deploying) for more details.
+1.  **Clone the repository:**
+    ```bash
+    git clone https://github.com/nandhikha20/smart-campus.git
+    cd smart-campus
+    ```
+
+2.  **Install dependencies:**
+    ```bash
+    npm install
+    # or
+    yarn install
+    ```
+
+3.  **Set up Environment Variables:**
+    Create a `.env.local` file in the root directory and add the necessary variables:
+    ```env
+    # Example .env.local
+    NEXT_PUBLIC_API_URL=http://localhost:3000
+    JWT_SECRET=your_secret_key
+    OPENROUTER_API_KEY=your_openrouter_key
+    ```
+
+4.  **Run the development server:**
+    ```bash
+    npm run dev
+    ```
+
+5.  **Open in Browser:**
+    Navigate to [http://localhost:3000](http://localhost:3000) to see the application running.
+
+## 🤝 Contribution
+
+Contributions are welcome! If you have suggestions or want to improve the project, feel free to fork the repository and submit a pull request.
+
+## 📄 License
+
+This project is open-source and available under the [MIT License](LICENSE).
+
+---
+
+<p align="center">
+  Made with ❤️ by Nandhikha & Team
+</p>
